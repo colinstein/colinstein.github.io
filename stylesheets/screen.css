@@ -9,22 +9,22 @@
 /* -------------------------------------------------------- */
 @font-face {
     font-family: 'PTSansRegular';
-    src: url('../font/pt-sans/PTS55F-webfont.eot');
-    src: url('../font/pt-sans/PTS55F-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../font/pt-sans/PTS55F-webfont.woff') format('woff'),
-         url('../font/pt-sans/PTS55F-webfont.ttf') format('truetype'),
-         url('../font/pt-sans/PTS55F-webfont.svg#PTSansRegular') format('svg');
+    src: url('/fonts/PTS55F-webfont.eot');
+    src: url('/fonts/PTS55F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/PTS55F-webfont.woff') format('woff'),
+         url('/fonts/PTS55F-webfont.ttf') format('truetype'),
+         url('/fonts/PTS55F-webfont.svg#PTSansRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'PTSansBold';
-    src: url('../font/pt-sans/PTS75F-webfont.eot');
-    src: url('../font/pt-sans/PTS75F-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../font/pt-sans/PTS75F-webfont.woff') format('woff'),
-         url('../font/pt-sans/PTS75F-webfont.ttf') format('truetype'),
-         url('../font/pt-sans/PTS75F-webfont.svg#PTSansBold') format('svg');
+    src: url('/fonts/PTS75F-webfont.eot');
+    src: url('/fonts/PTS75F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/PTS75F-webfont.woff') format('woff'),
+         url('/fonts/PTS75F-webfont.ttf') format('truetype'),
+         url('/fonts/PTS75F-webfont.svg#PTSansBold') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -244,11 +244,11 @@ iframe {
 }
 
 .feeds-toggle .down {
-    background-image: url(../img/arrow.png);
+    background-image: url(/images/arrow.png);
 }
 
 .feeds-toggle .f-close {
-    background-image: url(../img/close.png);
+    background-image: url(/images/close.png);
 }
 
 .fd-clicked {
@@ -646,7 +646,7 @@ iframe {
 
 .ts-items .ts-info {
     padding-bottom: 13px;
-    background: url(../img/point.png) no-repeat 87% 100%;
+    background: url(/images/point.png) no-repeat 87% 100%;
 }
 
 .ts-items .testimonial {
@@ -834,7 +834,7 @@ iframe {
 .c-form .arr {
     width: 25px;
     height: 25px;
-    background: url(../img/arrow-black.png) no-repeat 4px 5px;
+    background: url(/images/arrow-black.png) no-repeat 4px 5px;
     position: absolute;
     right: 15px;
     top: 15px;

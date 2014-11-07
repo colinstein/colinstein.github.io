@@ -5,10 +5,12 @@
     <title>Colin's Github Repository</title>
     <meta name="description" content="Github repositories for Colin Stein including Ruby, Swift, C, and Ruby projects." />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/2.3.1/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/2.3.1/css/bootstrap-responsive.min.css" />
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="/stylesheets/screen.css" />
+
+    <link rel="stylesheet" media="screen" href="//maxcdn.bootstrapcdn.com/bootstrap/2.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" media="screen" href="//maxcdn.bootstrapcdn.com/bootstrap/2.3.1/css/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" media="screen" href="//maxcdn.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.min.css" />
+    <link rel="stylesheet" media="screen" href="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.1/flexslider-min.css" />
+    <link rel="stylesheet" media="screen" href="/stylesheets/screen.css" />
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/2.3.1/js/bootstrap.min.js"></script>
@@ -16,10 +18,12 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
     <script src="//cdn.jsdelivr.net/jquery.enscroll/0.6.0/enscroll.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.1/jquery.flexslider-min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/masonry/2.1.08/jquery.masonry.min.js"></script>
     <script src="/javascripts/application.js"></script>
   </head>
   <body>
+
     <div id="p-load" class="dark">
       <div class="loader">
         <i></i>
@@ -35,7 +39,157 @@
     <section id="home" class="light">
       <header id="header" class="container">
 
+        <div class="feeds hidden-phone hidden-tablet">
+          <h1>CONTACT ME IN THE USUAL WAYS&hellip;</h1>
+          <div class="content">
+            <div class="overflow">
+              <div id="display">picture, public key, email key, etc.</div>
+            </div>
+          </div>
+        </div>
+        <div class="feeds-toggle hidden-phone hidden-tablet">
+          <span class="down"></span>
+        </div>
+
+        <div class="row">
+
+          <div class="span9">
+            <div class="logo">COLINS</div>
+            <div class="clearfix"></div>
+            <div class="slogan">Github repositories, gists, and more</div>
+            <div><i class="fa-circle-down"></i></div>
+          </div>
+
+          <div class="span3 hidden-phone">
+            <ul class="social">
+              <li><a href="https://www.youtube.com/user/touchymcfeel">YOUTUBE<span class="ico"><i class="icon-play"></i></span></a></li>
+              <li><a href="https://www.github.com/colinstein">GITHUB<span class="ico"><i class="icon-github"></i></span></a></li>
+              <li><a href="https://www.curseforge.com/profiles/cstein">FORGE<span class="ico"><i class="icon-fire"></i></span></a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="nav-container">
+          <nav class="navbar">
+            <div class="navbar-inner container">
+              <div class="collapse-nav">
+                <span class="collapse-nav-title">NAVIGATION</span>
+                <div class="btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </div>
+              </div>
+
+              <div class="nav-collapse collapse">
+                <ul class="nav" id="navigation">
+                  <li><a class="active" href="#home">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#auras">Auras</a></li>
+                  <li><a href="#video">Video</a></li>
+                  <li><a href="#tools">Tools</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+        <!-- recent recent activity blocks -->
+        <!-- some nice big square with links to recent content -->
       </header>
+      <div class="flexslider">
+        <ul class="slides">
+          <li><img src="/images/home-1.jpg" alt="" /></li>
+          <li><img src="/images/home-2.jpg" alt="" /></li>
+          <li><img src="/images/home-3.jpg" alt="" /></li>
+        </ul>
+      </div>
+        <div class="container">
+          <h2 class="hbg-d">Introductory Paragraph</h2>
+          <p>A brief introduction to what weak auras is, why a person might want to use it, and how to browse and learn about importing samples. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam urna neque, ultrices vitae justo sit amet, rutrum blandit dui. Nunc et tempus orci. Vestibulum sem enim, sagittis ut urna nec, cursus varius justo. Mauris lacus nibh, ornare sed vestibulum at, scelerisque in orci. Ut urna velit, accumsan et sollicitudin ac, fermentum et leo. Vestibulum a quam dictum, semper lorem nec, feugiat nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce velit erat, maximus vitae ultrices ut, finibus a massa. Phasellus consequat felis massa, et sagittis ligula porta non. Sed imperdiet mi sed lobortis rhoncus.</p>
+          <div class="v-space-15"></div>
+        </div>
+
+    </section>
+
+    <section id="about" class="dark">
+      <div class="v-space-25"></div>
+      <div class="container">
+
+        <div class="quote">
+          a one line quote that describes what weak auras is.
+        </div>
+
+        <div class="v-space-25"></div>
+
+        <div class="row">
+          <!-- some pictures of weakauras-->
+        </div>
+
+        <div class="v-space-25"></div>
+
+        <!-- an overview of weak auras -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam urna neque, ultrices vitae justo sit amet, rutrum blandit dui. Nunc et tempus orci. Vestibulum sem enim, sagittis ut urna nec, cursus varius justo. Mauris lacus nibh, ornare sed vestibulum at, scelerisque in orci. Ut urna velit, accumsan et sollicitudin ac, fermentum et leo. Vestibulum a quam dictum, semper lorem nec, feugiat nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce velit erat, maximus vitae ultrices ut, finibus a massa. Phasellus consequat felis massa, et sagittis ligula porta non. Sed imperdiet mi sed lobortis rhoncus.</p>
+
+        <div class="v-space-25"></div>
+
+        <div class="services">
+          <h2>HERE ARE SOME OF THE IMPORTANT FEATURES</h2>
+          <div class="row">
+            <article class="s-items span4">
+              <div class="s-ico"><i class="icon-cogs"></i></div>
+              <p>Praesent felis augue, placerat a congue id, auctor at ligula. Quisque ac quam in nisi tincidunt consectetur quis vitae elit. Mauris eget elit quis odio dapibus varius eu in nisi. Nullam quis nisl sapien. Integer lobortis vulputate diam, vel porttitor neque commodo ac. Mauris a magna sit amet purus varius dapibus. Pellentesque vestibulum faucibus nunc. </p>
+            </article>
+            <article class="s-items span4">
+              <div class="s-ico"><i class="icon-cogs"></i></div>
+              <p>Praesent felis augue, placerat a congue id, auctor at ligula. Quisque ac quam in nisi tincidunt consectetur quis vitae elit. Mauris eget elit quis odio dapibus varius eu in nisi. Nullam quis nisl sapien. Integer lobortis vulputate diam, vel porttitor neque commodo ac. Mauris a magna sit amet purus varius dapibus. Pellentesque vestibulum faucibus nunc. </p>
+            </article>
+            <article class="s-items span4">
+              <div class="s-ico"><i class="icon-cogs"></i></div>
+              <p>Praesent felis augue, placerat a congue id, auctor at ligula. Quisque ac quam in nisi tincidunt consectetur quis vitae elit. Mauris eget elit quis odio dapibus varius eu in nisi. Nullam quis nisl sapien. Integer lobortis vulputate diam, vel porttitor neque commodo ac. Mauris a magna sit amet purus varius dapibus. Pellentesque vestibulum faucibus nunc. </p>
+            </article>
+            <article class="s-items span4">
+              <div class="s-ico"><i class="icon-cogs"></i></div>
+              <p>Praesent felis augue, placerat a congue id, auctor at ligula. Quisque ac quam in nisi tincidunt consectetur quis vitae elit. Mauris eget elit quis odio dapibus varius eu in nisi. Nullam quis nisl sapien. Integer lobortis vulputate diam, vel porttitor neque commodo ac. Mauris a magna sit amet purus varius dapibus. Pellentesque vestibulum faucibus nunc. </p>
+            </article>
+            <article class="s-items span4">
+              <div class="s-ico"><i class="icon-cogs"></i></div>
+              <p>Praesent felis augue, placerat a congue id, auctor at ligula. Quisque ac quam in nisi tincidunt consectetur quis vitae elit. Mauris eget elit quis odio dapibus varius eu in nisi. Nullam quis nisl sapien. Integer lobortis vulputate diam, vel porttitor neque commodo ac. Mauris a magna sit amet purus varius dapibus. Pellentesque vestibulum faucibus nunc. </p>
+            </article>
+            <article class="s-items span4">
+              <div class="s-ico"><i class="icon-cogs"></i></div>
+              <p>Praesent felis augue, placerat a congue id, auctor at ligula. Quisque ac quam in nisi tincidunt consectetur quis vitae elit. Mauris eget elit quis odio dapibus varius eu in nisi. Nullam quis nisl sapien. Integer lobortis vulputate diam, vel porttitor neque commodo ac. Mauris a magna sit amet purus varius dapibus. Pellentesque vestibulum faucibus nunc. </p>
+            </article>
+          </div>
+
+        </div>
+      </div>
+      <div class="space"></div>
+    </section>
+
+    <section id="auras" class="light">
+      <div class="v-space-25"></div>
+      <div class="container">
+        <p>This is where I'll put auras that I've made so taht they can be downloaded.</p>
+      </div>
+      <div class="space"></div>
+    </section>
+
+    <section id="video" class="dark">
+      <div class="v-space-25"></div>
+      <div class="container">
+        <p>This will be "pop out" video that links to playlists like "how to weak auras 1" and maybe some of the new benchmark / testing stuff.</p>
+      </div>
+      <div class="space"></div>
+    </section>
+
+    <section id="tools" class="light">
+      <div class="v-space-25"></div>
+      <div class="container">
+        <p>all settings, media, and aura decoder</p>
+      </div>
+      <div class="space"></div>
     </section>
 
   </body>
