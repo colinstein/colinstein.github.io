@@ -15,6 +15,31 @@ $(document).ready(function() {
     /* Accordian */
     $('.accordion .accordion-toggle').append('<i class="icon-angle-right"></i>');
   })();
+  /* -----------------------------------------------------
+     Flex slider
+     -------------------------------------------------------- */
+  (function(){
+    $('.flexslider').flexslider({
+      animation: "fade",
+      slideshow: true,
+      slideshowSpeed: 7000,
+      animationDuration: 500,
+      directionNav: true,
+      controlNav: true,
+      keyboardNav: true,
+      touchSwipe: true,
+      prevText: "Previous",
+      nextText: "Next",
+      randomize: false,
+      slideToStart: 0,
+      pauseOnAction: true,
+      pauseOnHover: false
+    });
+    /* Add pixel-perfect icons for arrows */
+    $('.flex-prev').html('<i class="icon-double-angle-left"></i>');
+    $('.flex-next').html('<i class="icon-double-angle-right"></i>');
+  })();
+
 
   /* ---------------------------------------------------------------------
      Page Scrolling Animation

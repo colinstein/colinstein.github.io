@@ -10,6 +10,7 @@
     <link rel="stylesheet" media="screen" href="//maxcdn.bootstrapcdn.com/bootstrap/2.3.1/css/bootstrap-responsive.min.css" />
     <link rel="stylesheet" media="screen" href="//maxcdn.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.min.css" />
     <link rel="stylesheet" media="screen" href="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.1/flexslider-min.css" />
+    <link rel="stylesheet" media="screen" href="/stylesheets/flexslider.css" />
     <link rel="stylesheet" media="screen" href="/stylesheets/screen.css" />
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
@@ -98,18 +99,38 @@
         <!-- recent recent activity blocks -->
         <!-- some nice big square with links to recent content -->
       </header>
+
       <div class="flexslider">
         <ul class="slides">
           <li><img src="/images/home-1.jpg" alt="" /></li>
           <li><img src="/images/home-2.jpg" alt="" /></li>
-          <li><img src="/images/home-3.jpg" alt="" /></li>
         </ul>
-      </div>
-        <div class="container">
-          <h2 class="hbg-d">Introductory Paragraph</h2>
-          <p>A brief introduction to what weak auras is, why a person might want to use it, and how to browse and learn about importing samples. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam urna neque, ultrices vitae justo sit amet, rutrum blandit dui. Nunc et tempus orci. Vestibulum sem enim, sagittis ut urna nec, cursus varius justo. Mauris lacus nibh, ornare sed vestibulum at, scelerisque in orci. Ut urna velit, accumsan et sollicitudin ac, fermentum et leo. Vestibulum a quam dictum, semper lorem nec, feugiat nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce velit erat, maximus vitae ultrices ut, finibus a massa. Phasellus consequat felis massa, et sagittis ligula porta non. Sed imperdiet mi sed lobortis rhoncus.</p>
-          <div class="v-space-15"></div>
+        <div class="container highlights hidden-phone hidden-tablet">
+          <div class="row">
+            <article class="span4 h-block">
+              <h3 class="hbg-l">Learn Lua</h3>
+              <div class="clearfix"></div>
+              <p>The tutorial videos feature simplified and easy-to-follow examples you can use to learn about how to create customized interfaces for World of Warcraft using Lua.</p>
+            </article>
+            <article class="span4 h-block">
+              <h3 class="hbg-l">Get Examples</h3>
+              <div class="clearfix"></div>
+              <p>Auras featured in the most recent video series are linked as Gist files so that you can copy and paste to import them. Then, modify and share them!</p>
+            </article>
+            <article class="span4 h-block">
+              <h3 class="hbg-l">Download Addons</h3>
+              <div class="clearfix"></div>
+              <p>I find it useful to package up <i>useful</i> functionaltiy into stand-alone addons or tools. Links to download those projects into your UI are collected here.</p>
+            </article>
+          </div>
         </div>
+      </div>
+
+      <div class="container">
+        <h2 class="hbg-d">Introduction</h2>
+        <p>I've created a few videos that deal with customizing the World of Warcraft game interface. Those videos assume a certain familarity with the game but not with programming or interface design. Throughout the series you'll learn how to incorporate modifications and enhancements (called addons) that other players have made into your own custom UI. You'll also learn about WeakAuras: a powerful addon that acts more like a framework for creating and distributing your own mini addons. As you learn how to use the advanced features of WeakAuras you'll being writing your own addons: first by modifying WeakAuras with Lua and Blizzard’s Warcraft API, and then by extracting your custom functions into stand-alone addons. Learning to program by modifying a game you already play means you can work on useful projects right away, without getting too caught up in learning the basics.</p>
+        <div class="v-space-15"></div>
+      </div>
 
     </section>
 
@@ -118,7 +139,7 @@
       <div class="container">
 
         <div class="quote">
-          a one line quote that describes what weak auras is.
+          WeakAuras is a powerful and flexible framework that allows you to display highly customizable graphics on your screen to indicate buffs, debuffs, and a whole host of similar types of information.
         </div>
 
         <div class="v-space-25"></div>
@@ -135,31 +156,31 @@
         <div class="v-space-25"></div>
 
         <div class="services">
-          <h2>HERE ARE SOME OF THE IMPORTANT FEATURES</h2>
+          <h2>WHY SHOULD YOU BE USING WEAKAURAS?</h2>
           <div class="row">
             <article class="s-items span4">
-              <div class="s-ico"><i class="icon-cogs"></i></div>
-              <p>Praesent felis augue, placerat a congue id, auctor at ligula. Quisque ac quam in nisi tincidunt consectetur quis vitae elit. Mauris eget elit quis odio dapibus varius eu in nisi. Nullam quis nisl sapien. Integer lobortis vulputate diam, vel porttitor neque commodo ac. Mauris a magna sit amet purus varius dapibus. Pellentesque vestibulum faucibus nunc. </p>
+              <div class="s-ico"><i class="icon-sitemap"></i></div>
+              <p>Group auras into animated groups. Praesent felis augue, placerat a congue id, auctor at ligula. Quisque ac quam in nisi tincidunt consectetur quis vitae elit. Mauris eget elit quis odio dapibus varius eu in nisi. Nullam quis nisl sapien. Integer lobortis vulputate diam, vel porttitor neque commodo ac. Mauris a magna sit amet purus varius dapibus. Pellentesque vestibulum faucibus nunc. </p>
+            </article>
+            <article class="s-items span4">
+              <div class="s-ico"><i class="icon-warning-sign"></i></div>
+              <p>Get alerted to dangerous abilities. Praesent felis augue, placerat a congue id, auctor at ligula. Quisque ac quam in nisi tincidunt consectetur quis vitae elit. Mauris eget elit quis odio dapibus varius eu in nisi. Nullam quis nisl sapien. Integer lobortis vulputate diam, vel porttitor neque commodo ac. Mauris a magna sit amet purus varius dapibus. Pellentesque vestibulum faucibus nunc. </p>
+            </article>
+            <article class="s-items span4">
+              <div class="s-ico"><i class="icon-indent-right"></i></div>
+              <p>Advanced control over animation and colour. Praesent felis augue, placerat a congue id, auctor at ligula. Quisque ac quam in nisi tincidunt consectetur quis vitae elit. Mauris eget elit quis odio dapibus varius eu in nisi. Nullam quis nisl sapien. Integer lobortis vulputate diam, vel porttitor neque commodo ac. Mauris a magna sit amet purus varius dapibus. Pellentesque vestibulum faucibus nunc. </p>
             </article>
             <article class="s-items span4">
               <div class="s-ico"><i class="icon-cogs"></i></div>
-              <p>Praesent felis augue, placerat a congue id, auctor at ligula. Quisque ac quam in nisi tincidunt consectetur quis vitae elit. Mauris eget elit quis odio dapibus varius eu in nisi. Nullam quis nisl sapien. Integer lobortis vulputate diam, vel porttitor neque commodo ac. Mauris a magna sit amet purus varius dapibus. Pellentesque vestibulum faucibus nunc. </p>
+              <p>Control over every aspect means you can integrate with other addons. Praesent felis augue, placerat a congue id, auctor at ligula. Quisque ac quam in nisi tincidunt consectetur quis vitae elit. Mauris eget elit quis odio dapibus varius eu in nisi. Nullam quis nisl sapien. Integer lobortis vulputate diam, vel porttitor neque commodo ac. Mauris a magna sit amet purus varius dapibus. Pellentesque vestibulum faucibus nunc. </p>
             </article>
             <article class="s-items span4">
-              <div class="s-ico"><i class="icon-cogs"></i></div>
-              <p>Praesent felis augue, placerat a congue id, auctor at ligula. Quisque ac quam in nisi tincidunt consectetur quis vitae elit. Mauris eget elit quis odio dapibus varius eu in nisi. Nullam quis nisl sapien. Integer lobortis vulputate diam, vel porttitor neque commodo ac. Mauris a magna sit amet purus varius dapibus. Pellentesque vestibulum faucibus nunc. </p>
+              <div class="s-ico"><i class="icon-share"></i></div>
+              <p>Transmit your auras to friends without leaving the game, or distribute them online. Praesent felis augue, placerat a congue id, auctor at ligula. Quisque ac quam in nisi tincidunt consectetur quis vitae elit. Mauris eget elit quis odio dapibus varius eu in nisi. Nullam quis nisl sapien. Integer lobortis vulputate diam, vel porttitor neque commodo ac. Mauris a magna sit amet purus varius dapibus. Pellentesque vestibulum faucibus nunc. </p>
             </article>
             <article class="s-items span4">
-              <div class="s-ico"><i class="icon-cogs"></i></div>
-              <p>Praesent felis augue, placerat a congue id, auctor at ligula. Quisque ac quam in nisi tincidunt consectetur quis vitae elit. Mauris eget elit quis odio dapibus varius eu in nisi. Nullam quis nisl sapien. Integer lobortis vulputate diam, vel porttitor neque commodo ac. Mauris a magna sit amet purus varius dapibus. Pellentesque vestibulum faucibus nunc. </p>
-            </article>
-            <article class="s-items span4">
-              <div class="s-ico"><i class="icon-cogs"></i></div>
-              <p>Praesent felis augue, placerat a congue id, auctor at ligula. Quisque ac quam in nisi tincidunt consectetur quis vitae elit. Mauris eget elit quis odio dapibus varius eu in nisi. Nullam quis nisl sapien. Integer lobortis vulputate diam, vel porttitor neque commodo ac. Mauris a magna sit amet purus varius dapibus. Pellentesque vestibulum faucibus nunc. </p>
-            </article>
-            <article class="s-items span4">
-              <div class="s-ico"><i class="icon-cogs"></i></div>
-              <p>Praesent felis augue, placerat a congue id, auctor at ligula. Quisque ac quam in nisi tincidunt consectetur quis vitae elit. Mauris eget elit quis odio dapibus varius eu in nisi. Nullam quis nisl sapien. Integer lobortis vulputate diam, vel porttitor neque commodo ac. Mauris a magna sit amet purus varius dapibus. Pellentesque vestibulum faucibus nunc. </p>
+              <div class="s-ico"><i class="icon-dashboard"></i></div>
+              <p>Use every API in the game, not just the ones “they” think you need. Praesent felis augue, placerat a congue id, auctor at ligula. Quisque ac quam in nisi tincidunt consectetur quis vitae elit. Mauris eget elit quis odio dapibus varius eu in nisi. Nullam quis nisl sapien. Integer lobortis vulputate diam, vel porttitor neque commodo ac. Mauris a magna sit amet purus varius dapibus. Pellentesque vestibulum faucibus nunc. </p>
             </article>
           </div>
 
