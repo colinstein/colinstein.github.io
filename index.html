@@ -21,6 +21,7 @@
     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.1/jquery.flexslider-min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/masonry/2.1.08/jquery.masonry.min.js"></script>
+    <script src="/javascripts/jquery.stapel.js"></script>
     <script src="/javascripts/application.js"></script>
   </head>
   <body>
@@ -87,8 +88,8 @@
                 <ul class="nav" id="navigation">
                   <li><a class="active" href="#home">Home</a></li>
                   <li><a href="#about">About</a></li>
-                  <li><a href="#auras">Auras</a></li>
                   <li><a href="#video">Video</a></li>
+                  <li><a href="#auras">Auras</a></li>
                   <li><a href="#tools">Tools</a></li>
                 </ul>
               </div>
@@ -189,18 +190,83 @@
       <div class="space"></div>
     </section>
 
-    <section id="auras" class="light">
+    <section id="video" class="light">
       <div class="v-space-25"></div>
       <div class="container">
-        <p>This is where I'll put auras that I've made so taht they can be downloaded.</p>
+
+        <p>There are a number of old playlists which you can watch to learn about Weak Auras, my custom interface, addons I have created, and Lua programming in general. The boxes below will highlight some of the most important videos but you can always view the whole collection on youtube.</p>
+        <div class="p-header">
+          <h2 id="p-name" class="hbg-d">Warcraft Lua Addons and Programming Videos</h2>
+          <span id="close" class="back"><i class="icon-angle-left"></i>&nbsp;&nbsp;BACK TO CATEGORIES</span>
+        </div>
+        <div class="v-space-25"></div>
+        <ul id="tp-grid" class="tp-grid">
+
+          <!-- category 1 -->
+
+          <li data-pile="Category 1" class="preview">
+            <img src="/images/playlists/1.jpg" alt=""/>
+            <div class="bg-layer">
+              <div class="p-container">
+                <div class="view">
+                  <a href="#">
+                    <i class="icon-external-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li data-pile="Category 2" class="preview">
+            <img src="/images/playlists/1.jpg" alt=""/>
+            <div class="bg-layer">
+              <div class="p-container">
+                <div class="view">
+                  <a href="#">
+                    <i class="icon-external-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li data-pile="Category 3" class="preview">
+            <img src="/images/playlists/1.jpg" alt=""/>
+            <div class="bg-layer">
+              <div class="p-container">
+                <div class="view">
+                  <a href="#">
+                    <i class="icon-external-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li data-pile="Category 4" class="preview">
+            <img src="/images/playlists/1.jpg" alt=""/>
+            <div class="bg-layer">
+              <div class="p-container">
+                <div class="view">
+                  <a href="#">
+                    <i class="icon-external-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+
+        </ul>
+
       </div>
       <div class="space"></div>
     </section>
 
-    <section id="video" class="dark">
+    <section id="auras" class="dark">
       <div class="v-space-25"></div>
       <div class="container">
-        <p>This will be "pop out" video that links to playlists like "how to weak auras 1" and maybe some of the new benchmark / testing stuff.</p>
+        <p>Inside this container is where you'll find little pop-up links to download auras as import strings and/or links to a gist.</p>
       </div>
       <div class="space"></div>
     </section>
@@ -208,7 +274,7 @@
     <section id="tools" class="light">
       <div class="v-space-25"></div>
       <div class="container">
-        <p>all settings, media, and aura decoder</p>
+        <p>all settings, media, and aura decoder. This is where I'll dump some links to my addons and/or tools I've made that cna be used on this site (notably an aura decoder)</p>
       </div>
       <div class="space"></div>
     </section>
