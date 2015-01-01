@@ -89,22 +89,20 @@
                   <li><a class="active" href="#home">Home</a></li>
                   <li><a href="#about">About</a></li>
                   <li><a href="#video">Video</a></li>
-                  <li><a href="#auras">Auras</a></li>
                   <li><a href="#tools">Tools</a></li>
+                  <li><a href="#auras">Auras</a></li>
                 </ul>
               </div>
             </div>
           </nav>
         </div>
 
-        <!-- recent recent activity blocks -->
-        <!-- some nice big square with links to recent content -->
       </header>
 
       <div class="flexslider">
         <ul class="slides">
-          <li><img src="/images/home-1.jpg" alt="" /></li>
-          <li><img src="/images/home-2.jpg" alt="" /></li>
+          <li><img src="/images/home/1.jpg" alt="" /></li>
+          <li><img src="/images/home/2.jpg" alt="" /></li>
         </ul>
         <div class="container highlights hidden-phone hidden-tablet">
           <div class="row">
@@ -131,6 +129,22 @@
         <h2 class="hbg-d">Introduction</h2>
         <p>I've created a few videos that deal with customizing the World of Warcraft game interface. Those videos assume a certain familarity with the game but not with programming or interface design. Throughout the series you'll learn how to incorporate modifications and enhancements (called addons) that other players have made into your own custom UI. You'll also learn about WeakAuras: a powerful addon that acts more like a framework for creating and distributing your own mini addons. As you learn how to use the advanced features of WeakAuras you'll being writing your own addons: first by modifying WeakAuras with Lua and Blizzard’s Warcraft API, and then by extracting your custom functions into stand-alone addons. Learning to program by modifying a game you already play means you can work on useful projects right away, without getting too caught up in learning the basics.</p>
         <div class="v-space-15"></div>
+        <div class="hidden-tablet hidden-phone">
+          <h2 class="hbg-d">Most Recent Work</h2>
+          <div class="row l-projects">
+            <article class="span3 preview">
+              <img src="/images/recent/1.jpg" alt="" />
+              <div class="bg-layer">
+                <div class="p-container">
+                  <div class="view">
+                    <a href="#"><i class="icon-plus"></i></a>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="space"></div>
       </div>
 
     </section>
@@ -146,7 +160,9 @@
         <div class="v-space-25"></div>
 
         <div class="row">
-          <!-- some pictures of weakauras-->
+          <img src="/images/about/1.jpg" class="span4" alt="" />
+          <img src="/images/about/1.jpg" class="span4" alt="" />
+          <img src="/images/about/1.jpg" class="span4" alt="" />
         </div>
 
         <div class="v-space-25"></div>
@@ -201,11 +217,8 @@
         </div>
         <div class="v-space-25"></div>
         <ul id="tp-grid" class="tp-grid">
-
-          <!-- category 1 -->
-
           <li data-pile="Category 1" class="preview">
-            <img src="/images/playlists/1.jpg" alt=""/>
+            <img src="/images/playlists/1.jpg" alt="" />
             <div class="bg-layer">
               <div class="p-container">
                 <div class="view">
@@ -216,68 +229,146 @@
               </div>
             </div>
           </li>
-
-          <li data-pile="Category 2" class="preview">
-            <img src="/images/playlists/1.jpg" alt=""/>
-            <div class="bg-layer">
-              <div class="p-container">
-                <div class="view">
-                  <a href="#">
-                    <i class="icon-external-link"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </li>
-
-          <li data-pile="Category 3" class="preview">
-            <img src="/images/playlists/1.jpg" alt=""/>
-            <div class="bg-layer">
-              <div class="p-container">
-                <div class="view">
-                  <a href="#">
-                    <i class="icon-external-link"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </li>
-
-          <li data-pile="Category 4" class="preview">
-            <img src="/images/playlists/1.jpg" alt=""/>
-            <div class="bg-layer">
-              <div class="p-container">
-                <div class="view">
-                  <a href="#">
-                    <i class="icon-external-link"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </li>
-
-
         </ul>
-
       </div>
       <div class="space"></div>
     </section>
 
-    <section id="auras" class="dark">
+    <section id="tools" class="dark">
       <div class="v-space-25"></div>
       <div class="container">
-        <p>Inside this container is where you'll find little pop-up links to download auras as import strings and/or links to a gist.</p>
+        <div class="quote">
+          This is where we'll dump some links to articles, documentation, or whatever other supporting material is likely to be relevent.
+        </div>
+        <div class="v-space-25"></div>
+        <div id="masonry">
+          <article class="ts-items">
+            <div class="ts-info">
+              <img src="/images/tools/1.jpg" alt="" />
+              <p class="testimonial"><i class="icon-quote-left"></i>This is a quote for an article tool, or whatever else probably belongs in one of these boxes.</p>
+            </div>
+            <div class="testimony">
+              <span class="testimony-name">Foobar Title</span>
+              <span class="testimony-post">Foobar description goes here</span>
+            </div>
+          </article>
+        </div>
       </div>
       <div class="space"></div>
     </section>
 
-    <section id="tools" class="light">
+    <section id="auras" class="light">
       <div class="v-space-25"></div>
       <div class="container">
-        <p>all settings, media, and aura decoder. This is where I'll dump some links to my addons and/or tools I've made that cna be used on this site (notably an aura decoder)</p>
+        <p>Inside this container is where you'll find little pop-up links to download auras as import strings and/or links to a gist. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam urna neque, ultrices vitae justo sit amet, rutrum blandit dui. Nunc et tempus orci. Vestibulum sem enim, sagittis ut urna nec, cursus varius justo. Mauris lacus nibh, ornare sed vestibulum at, scelerisque in orci. Ut urna velit, accumsan et sollicitudin ac, fermentum et leo. Vestibulum a quam dictum, semper lorem nec, feugiat nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce velit erat, maximus vitae ultrices ut, finibus a massa. Phasellus consequat felis massa, et sagittis ligula porta non. Sed imperdiet mi sed lobortis rhoncus.</p>
+        <div class="v-space-5"></div>
+        <div class="row t-center">
+          <article class="span3 t-items">
+            <a href="#" class="fb"><i class="icon-play-circle"></i></a>
+            <a href="#" class="twt"><i class="icon-download"></i></a>
+            <div class="t-block">
+              <div class="t-info dark">
+                <h4 class="name">Foobar Aura</h4>
+                <h4 class="hbg-l post">Foo bar sub title</h4>
+                <p>This is a short description of the aura telling you why you might want to download and import it into your configuration.</p>
+              </div>
+            </div>
+            <img src="/images/auras/1.jpg" alt="" />
+          </article>
+          <article class="span3 t-items">
+            <a href="#" class="fb"><i class="icon-play-circle"></i></a>
+            <a href="#" class="twt"><i class="icon-download"></i></a>
+            <div class="t-block">
+              <div class="t-info dark">
+                <h4 class="name">Foobar Aura</h4>
+                <h4 class="hbg-l post">Foo bar sub title</h4>
+                <p>This is a short description of the aura telling you why you might want to download and import it into your configuration.</p>
+              </div>
+            </div>
+            <img src="/images/auras/1.jpg" alt="" />
+          </article>
+          <article class="span3 t-items">
+            <a href="#" class="fb"><i class="icon-play-circle"></i></a>
+            <a href="#" class="twt"><i class="icon-download"></i></a>
+            <div class="t-block">
+              <div class="t-info dark">
+                <h4 class="name">Foobar Aura</h4>
+                <h4 class="hbg-l post">Foo bar sub title</h4>
+                <p>This is a short description of the aura telling you why you might want to download and import it into your configuration.</p>
+              </div>
+            </div>
+            <img src="/images/auras/1.jpg" alt="" />
+          </article>
+          <article class="span3 t-items">
+            <a href="#" class="fb"><i class="icon-play-circle"></i></a>
+            <a href="#" class="twt"><i class="icon-download"></i></a>
+            <div class="t-block">
+              <div class="t-info dark">
+                <h4 class="name">Foobar Aura</h4>
+                <h4 class="hbg-l post">Foo bar sub title</h4>
+                <p>This is a short description of the aura telling you why you might want to download and import it into your configuration.</p>
+              </div>
+            </div>
+            <img src="/images/auras/1.jpg" alt="" />
+          </article>
+        </div>
       </div>
       <div class="space"></div>
     </section>
+
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <p class="span8">Copytight 2015 Colin Stein. All Rights reserved.</p>
+          <div class="span4 pull-right t-right">
+            <a href="#" data-toggle="tooltip" class="t-tips" data-original-title="Google Plus"><i class="icon-google-plus-sign"></i></a>
+            <a href="#" data-toggle="tooltip" class="t-tips" data-original-title="Google Plus"><i class="icon-google-plus-sign"></i></a>
+            <a href="#" data-toggle="tooltip" class="t-tips" data-original-title="Google Plus"><i class="icon-google-plus-sign"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Older IE Message -->
+    <!--[if lt IE 8]>
+    <div class="ie-block">
+        <h1 class="Ops">Ooops!</h1>
+        <p>You are using an outdated version of Internet Explorer, upgrade to any of the following web browser in order to access the maximum functionality of this website. </p>
+        <ul class="browsers">
+            <li>
+                <a href="https://www.google.com/intl/en/chrome/browser/">
+                    <img src="img/browsers/chrome.png" alt="">
+                    <div>Google Chrome</div>
+                </a>
+            </li>
+            <li>
+                <a href="http://www.mozilla.org/en-US/firefox/new/">
+                    <img src="img/browsers/firefox.png" alt="">
+                    <div>Mozilla Firefox</div>
+                </a>
+            </li>
+            <li>
+                <a href="http://www.opera.com/computer/windows">
+                    <img src="img/browsers/opera.png" alt="">
+                    <div>Opera</div>
+                </a>
+            </li>
+            <li>
+                <a href="http://safari.en.softonic.com/">
+                    <img src="img/browsers/safari.png" alt="">
+                    <div>Safari</div>
+                </a>
+            </li>
+            <li>
+                <a href="http://windows.microsoft.com/en-us/internet-explorer/downloads/ie-10/worldwide-languages">
+                    <img src="img/browsers/ie.png" alt="">
+                    <div>Internet Explorer(New)</div>
+                </a>
+            </li>
+        </ul>
+        <p>Upgrade your browser for a Safer and Faster web experience. <br/>Thank you for your patience...</p>
+    </div>
+    <![endif]-->
 
   </body>
 </html>

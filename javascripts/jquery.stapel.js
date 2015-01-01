@@ -520,7 +520,7 @@
 			// center the ul
 			lastItemTop = this.spread ? lastItemTop : accumT;
 			this.el.css( {
-				marginLeft : ml-15,
+				marginLeft : ml-0,
 				height : lastItemTop + this.itemSize.height
 			} );
 
